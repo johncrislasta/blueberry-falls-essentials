@@ -1,0 +1,40 @@
+.listing-amenities-grid {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.listing-amenity-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background: var(--wp--preset--color--background);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.listing-amenity-item:hover {
+    background: var(--wp--preset--color--secondary);
+    color: var(--wp--preset--color--background);
+}
+
+.amenity-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    background: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--background);
+}
+
+.amenity-name {
+    font-weight: 500;
+}
+
+.amenity-category {
+    font-size: 0.875rem;
+    color: var(--wp--preset--color--secondary);
+}

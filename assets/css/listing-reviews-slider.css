@@ -1,0 +1,70 @@
+.listing-reviews-slider {
+    margin: 30px 0;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+}
+
+.review-content {
+    padding: 20px;
+}
+
+.review-content h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.review-rating {
+    margin: 10px 0;
+}
+
+.star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8.85%2016.825L12%2014.925L15.15%2016.85L14.325%2013.25L17.1%2010.85L13.45%2010.525L12%207.125L10.55%2010.5L6.9%2010.825L9.675%2013.25L8.85%2016.825ZM5.825%2021L7.45%2013.975L2%209.25L9.2%208.625L12%202L14.8%208.625L22%209.25L16.55%2013.975L18.175%2021L12%2017.275L5.825%2021Z%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E');
+}
+
+.star.active {
+    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5.825%2021L7.45%2013.975L2%209.25L9.2%208.625L12%202L14.8%208.625L22%209.25L16.55%2013.975L18.175%2021L12%2017.275L5.825%2021Z%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E');
+}
+
+.review-content p {
+    color: #666;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: 0.2;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #0073aa;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #0073aa !important;
+}
