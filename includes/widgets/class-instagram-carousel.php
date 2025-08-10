@@ -32,7 +32,7 @@ function register_blueberry_elementor_category($elements_manager) {
         ]
     );
 }
-add_action('elementor/elements/categories_registered', 'register_blueberry_elementor_category');
+add_action('elementor/elements/categories_registered', 'BlueberryFalls\Essentials\Widgets\register_blueberry_elementor_category');
 
 final class Instagram_Carousel extends Widget_Base {
     
